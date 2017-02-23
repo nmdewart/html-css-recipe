@@ -5,6 +5,7 @@ body {
 
 #intro
 .inline-block {
+border-radius: 25px;
 color: #996600;
   list-style: none;
   text-align: center;
@@ -29,6 +30,7 @@ img {
   }
 
 #title  {
+border-radius: 25px;
   color: #996600;
   font-size: 2em;
   font-family: "Book Antiqua";
@@ -46,6 +48,7 @@ img {
 
 #ingredients 
  {
+ border-radius: 25px;
  color: #996600;
   text-align: left;
   background-color: #ffff99;
@@ -60,6 +63,7 @@ img {
 
 #directions 
 {
+border-radius: 25px;
   color: #996600;
   text-align: left;
   background-color: #ffff99;
@@ -93,5 +97,7 @@ color: #996600;
   
   
 }
+
+
 
 
