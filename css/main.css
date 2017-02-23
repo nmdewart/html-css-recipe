@@ -5,11 +5,12 @@ body {
 
 #intro
 .inline-block {
+color: #996600;
   list-style: none;
   text-align: center;
   background: none;
   padding-left: 0;
-  border: 3px solid #ffcc66;
+  border: 0px solid #ffcc66;
 }
 
 img {
@@ -28,41 +29,46 @@ img {
   }
 
 #title  {
+  color: #996600;
+  font-size: 2em;
+  font-family: "Book Antiqua";
   text-align: center;
   background-color: #ffffcc;
   padding: 1em; /*  1em  =  16px  */
-  border-width: 3px;
+  border-width: 0px;
   border-style: solid;
   border-color: #ffcc66;
-  border: 3px solid #ffcc66;
-  border-top:  .3em solid #ffcc66;
+  border: 0px solid #ffcc66;
+  border-top:  0em solid #ffcc66;
   margin: 1em 0;
 }
 
 
 #ingredients 
  {
+ color: #996600;
   text-align: left;
   background-color: #ffff99;
   padding: 1em; /*  1em  =  16px  */
-  border-width: 3px;
+  border-width: 0px;
   border-style: solid;
   border-color: #ffcc66;
-  border: 3px solid #ffcc66;
-  border-top:  .3em solid #ffcc66;
+  border: 0px solid #ffcc66;
+  border-top:  0em solid #ffcc66;
   margin: 1em 0;
 }
 
 #directions 
 {
+  color: #996600;
   text-align: left;
   background-color: #ffff99;
   padding: 1em; /*  1em  =  16px  */
-  border-width: 3px;
+  border-width: 0px;
   border-style: solid;
   border-color: #ffcc66;
-  border: 3px solid #ffcc66;
-  border-top:  .3em solid #ffcc66;
+  border: 0px solid #ffcc66;
+  border-top:  0em solid #ffcc66;
   margin: 1em 0;
 }
 
@@ -73,8 +79,9 @@ img {
 }
 
 #directions li{
+color: #996600;
   padding:  1em 0;
-  border-top: 1px solid #000000;
+  border-top: 1px solid #996600;
 }
 
 @media (min-width: 60em) {
